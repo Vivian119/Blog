@@ -12,7 +12,7 @@ spring:
     mode: HTML5
 
 server:
-  port: 8080
+  port: 80
 
 #    prefix: classpath:/templates/
 #    suffix: .html
