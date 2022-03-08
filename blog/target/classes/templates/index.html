@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:test-align="http://www.w3.org/1999/html">
 
 <head >
     <meta charset="UTF-8">
@@ -48,6 +48,7 @@
 
 <!--顶部图片-->
 <div class="m-bg-class_outer" style="width: 100%;height: 750px">
+<!--<div class="m-bg-class_outer" style="width: 100%;height: 100%">-->
     <img src="../static/images/background.jpg" th:src="@{/images/background.jpg}" alt="" class="ui m-bg image" style="width: 100%;height: 100%">
     <div class="m-bg-class_cover" align="center">
             <div class="m-margin-top-maxx" align="center">
@@ -223,9 +224,6 @@
                 </div>
             </div>
             <div class="four wide column" >
-
-
-
                 <div class="ui inverted link list">
                     <div class="item">
                         <!--微信二维码-->
@@ -234,8 +232,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="four wide column">
                 <div class="ui inverted link list">
                     <div class="item">
@@ -251,11 +247,16 @@
                 <p id="htmer_time" class="item m-text-thin"></p>
                 <!--共 <h2 class="ui orange header m-inline-block" th:text="${page.totalElements}"> 14 </h2> 篇-->
             </div>
-
-
-
         </div>
     </div>
+    <div>&nbsp</div>
+    <div>
+        <center>鄂ICP备2021014899号</center>
+    </div>
+    <div>
+        <center>@2021-2022 &nbsp;&nbsp;Zhao.Bohan &nbsp;&nbsp;版权所有</center>
+    </div>
+
 </footer>
 
 
